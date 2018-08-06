@@ -1,0 +1,14 @@
+########################################
+#  Calculador de perímetro  - Quadrado #
+#       By: Luiz F Gomes de Melo       #
+########################################
+
+
+Lado = int(input ("Digite o valor correspondente ao lado de um quadrado: "))
+
+x = Lado * Lado
+y = Lado * 4
+
+print ()
+print ("Resultado:")
+print ("Perímetro:", x,"-", "Área:", y)
